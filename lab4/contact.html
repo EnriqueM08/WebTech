@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Lab #4</title>
+    </head>
+    <body>
+        <h1>My Contact Page</h1>
+        <p>Please Fill Out Form Below</p>
+        <table cellpadding ="30">
+            <form action="./save_contact.php" method="get">
+                <tr>
+                    <td>
+                        <p>Please Provide Your Name:
+                            <input type="text" name="username" size="15" maxlength="30" />
+                        </p>
+                    </td>
+                    <td>
+                        <label for="date">Please Provide Date Of Birth:</label>
+                            <input type="date" name="birthDate" id="DOB" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Please Provide Email Address:
+                            <input type="email" name="email" />
+                        </p>
+                    </td>
+                    <td>
+                        <p>Please Provide Phone Number:
+                            <input type="text" name="phoneNumber" />
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="50">
+                        <p>Please Provide Message To Send:</p>
+                            <textarea name="comments" cols="50" rows="4"> Enter your message... </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" />
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

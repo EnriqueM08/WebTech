@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Lab #7</title>
+    </head>
+    <body>
+        <h1 id="contantHeader">My Contact Page</h1>
+        <p id="formTitle" class="paragraph-one">Please Fill Out Form Below</p>
+        <table id="contactTable" cellpadding ="30">
+            <form id="contactForm" action="./save_contact.php" method="get">
+                <tr id="topOfTable">
+                    <td id="nameForm">
+                        <p id="nameText" class="form-paragraph">Please Provide Your Name:
+                            <input id="nameInput" type="text" name="username" size="15" maxlength="30" />
+                        </p>
+                    </td>
+                    <td id="dobForm">
+                        <label id="dobLabel" for="date">Please Provide Date Of Birth:</label>
+                            <input id="dobInput" type="date" name="birthDate" id="DOB" />
+                    </td>
+                </tr>
+                <tr id="middleOfTable">
+                    <td id="emailAddressForm">
+                        <p id="emailText" class="form-paragraph">Please Provide Email Address:
+                            <input id="emailInput" type="email" name="email" />
+                        </p>
+                    </td>
+                    <td id="phoneNumberForm">
+                        <p id="phoneNumberText" class="form-paragraph">Please Provide Phone Number:
+                            <input id="phoneNumberInput"type="text" name="phoneNumber" />
+                        </p>
+                    </td>
+                </tr>
+                <tr id="bottomOfTable">
+                    <td id="messageForm" colspan="50">
+                        <p id="messageText" class="form-paragraph">Please Provide Message To Send</p>
+                            <textarea id="messageInput" name="comments" cols="50" rows="4"> Enter your message... </textarea>
+                    </td>
+                </tr>
+                <tr id="submitTable">
+                    <td id="submitForm">
+                        <input id="submitButton" type="submit" value="Submit" />
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

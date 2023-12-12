@@ -1,0 +1,155 @@
+p, label {
+    color: red;
+    background-color: black;
+    width: fit-content;
+}
+
+.paragraph-one {
+    color: yellow;
+    position: relative;
+    top: 10px;
+    left: 625px;
+}
+
+.form-paragraph {
+    color: blueviolet;
+    position: relative;
+    background-color: yellow;
+    top: 10px;
+    right: 20px;
+}
+
+#dobLabel {
+    color: blueviolet;
+    position: relative;
+    background-color: yellow;
+    top: 10px;
+    right: 20px;
+}
+
+#dobInput {
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.index-paragraph {
+    color: cornflowerblue;
+    position: relative;
+    background-color: black;
+    top: 10px;
+    left: 50px;
+}
+
+#nameText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    height: 20px;
+}
+
+#nameInput {
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+    width: 200px;
+}
+
+#dobLabel {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 400px;
+}
+
+#dobInput {
+    position: relative;
+    left: 473px;
+    width: 200px;
+}
+
+#emailText {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 20px;
+}
+
+#emailInput {
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+    width: 200px;
+}
+
+#phoneNumberText {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 400px;
+    width: 236px;
+    height: 20px;
+}
+
+#phoneNumberInput {
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+    width: 200px;
+}
+
+#messageText {
+    position: relative;
+    left: 560px;
+}
+
+#messageInput {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 50%;
+    border-color: purple;
+    position: relative;
+    left: 500px;
+}
+
+#submitButton {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    position: relative;
+    left: 620px;
+    width: 100px;
+}
+
+#imageOfMe {
+    size: 100px;
+    opacity: 0.5;
+    border-radius: 50%; 
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    border-color: darkred;
+    border-style:groove;
+    border-width: 10px;
+    border-radius: 30px;
+}
+
+ul, ol {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+a:link {
+    color: lightpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ a:hover {
+    color: blueviolet;
+    font-style: italic;
+}
+
+a:visited {
+    color: violet;
+}

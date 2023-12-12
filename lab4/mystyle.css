@@ -1,0 +1,39 @@
+p, label {
+    color: red;
+    background-color: black;
+    width: fit-content;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    border-color: darkred;
+    border-style:groove;
+    border-width: 10px;
+    border-radius: 30px;
+}
+
+ul, ol {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+a:link {
+    color: lightpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ a:hover {
+    color: blueviolet;
+    font-style: italic;
+}
+
+a:visited {
+    color: violet;
+}
