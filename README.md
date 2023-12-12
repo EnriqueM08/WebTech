@@ -1,4 +1,4 @@
-**This is a compilation of the various Labs created in my Web Technologies Class**
+****This is a compilation of the various Labs created in my Web Technologies Class****
 
 **Lab 3**
 This lab is a basic HTML webpage with links to info about myself as well as a contact page that is currently not working.
